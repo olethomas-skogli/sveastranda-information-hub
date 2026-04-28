@@ -171,9 +171,28 @@ export const categories: Category[] = [
             },
             'Stor fotballslette med to mål',
             'Enkel frisbeegolfbane (4 utkast, 2 kurver)',
-            'Fine turstier fra bussholdeplassen ved inngangen til campingplassen',
             'Besøk fossefallene Høgfallet og Moafallet'
           ]
+        },
+        { kind: 'heading', text: 'Turstier' },
+        {
+          kind: 'paragraph',
+          text: 'Det finnes fine turstier med utgangspunkt fra bussholdeplassen ved innkjørselen til campingplassen. Se kart og oversikt her: [sveastranda.no/turstier](https://www.sveastranda.no/turstier)'
+        },
+        { kind: 'heading', text: 'Båtutleie' },
+        { kind: 'paragraph', text: 'Vi tilbyr utleie av:' },
+        {
+          kind: 'list',
+          items: ['Sykkelbåt', 'Robåt', 'Kano', 'SUP-brett']
+        },
+        {
+          kind: 'paragraph',
+          text: 'Pris: 50 kr per halvtime. Bestilles i resepsjonen. Tilgjengelighet kan variere etter trafikk og sesong.'
+        },
+        { kind: 'heading', text: 'Fisking' },
+        {
+          kind: 'paragraph',
+          text: 'Les mer om fiskemuligheter her: [sveastranda.no/fisking](https://www.sveastranda.no/fisking)'
         }
       ],
       en: [
@@ -186,9 +205,28 @@ export const categories: Category[] = [
             },
             'Large football field with two goals',
             'Simple frisbee golf course (4 tees, 2 baskets)',
-            'Lovely walking trails from the bus stop at the entrance to the campsite',
             'Visit the Høgfallet and Moafallet waterfalls'
           ]
+        },
+        { kind: 'heading', text: 'Walking trails' },
+        {
+          kind: 'paragraph',
+          text: 'Lovely walking trails start from the bus stop at the entrance to the campsite. See the map and overview here: [sveastranda.no/turstier](https://www.sveastranda.no/turstier)'
+        },
+        { kind: 'heading', text: 'Boat rental' },
+        { kind: 'paragraph', text: 'We rent out:' },
+        {
+          kind: 'list',
+          items: ['Pedal boat', 'Rowing boat', 'Canoe', 'SUP board']
+        },
+        {
+          kind: 'paragraph',
+          text: 'Price: 50 NOK per half hour. Book at reception. Availability may vary depending on demand and season.'
+        },
+        { kind: 'heading', text: 'Fishing' },
+        {
+          kind: 'paragraph',
+          text: 'Read more about fishing here: [sveastranda.no/fisking](https://www.sveastranda.no/fisking)'
         }
       ],
       nl: [
@@ -201,9 +239,28 @@ export const categories: Category[] = [
             },
             'Groot voetbalveld met twee doelen',
             'Eenvoudige frisbeegolfbaan (4 tees, 2 manden)',
-            'Mooie wandelpaden vanaf de bushalte bij de ingang van de camping',
             'Bezoek de watervallen Høgfallet en Moafallet'
           ]
+        },
+        { kind: 'heading', text: 'Wandelpaden' },
+        {
+          kind: 'paragraph',
+          text: 'Mooie wandelpaden vertrekken vanaf de bushalte bij de ingang van de camping. Bekijk de kaart en het overzicht hier: [sveastranda.no/turstier](https://www.sveastranda.no/turstier)'
+        },
+        { kind: 'heading', text: 'Botenverhuur' },
+        { kind: 'paragraph', text: 'Wij verhuren:' },
+        {
+          kind: 'list',
+          items: ['Waterfiets', 'Roeiboot', 'Kano', 'SUP-board']
+        },
+        {
+          kind: 'paragraph',
+          text: 'Prijs: 50 NOK per half uur. Reserveren bij de receptie. Beschikbaarheid kan variëren afhankelijk van drukte en seizoen.'
+        },
+        { kind: 'heading', text: 'Vissen' },
+        {
+          kind: 'paragraph',
+          text: 'Lees hier meer over de visgelegenheden: [sveastranda.no/fisking](https://www.sveastranda.no/fisking)'
         }
       ],
       de: [
@@ -216,9 +273,28 @@ export const categories: Category[] = [
             },
             'Großes Fußballfeld mit zwei Toren',
             'Einfacher Discgolf-Parcours (4 Abwürfe, 2 Körbe)',
-            'Schöne Wanderwege ab der Bushaltestelle am Eingang des Campingplatzes',
             'Besuchen Sie die Wasserfälle Høgfallet und Moafallet'
           ]
+        },
+        { kind: 'heading', text: 'Wanderwege' },
+        {
+          kind: 'paragraph',
+          text: 'Schöne Wanderwege beginnen an der Bushaltestelle am Eingang des Campingplatzes. Karte und Übersicht hier: [sveastranda.no/turstier](https://www.sveastranda.no/turstier)'
+        },
+        { kind: 'heading', text: 'Bootsverleih' },
+        { kind: 'paragraph', text: 'Wir vermieten:' },
+        {
+          kind: 'list',
+          items: ['Tretboot', 'Ruderboot', 'Kanu', 'SUP-Board']
+        },
+        {
+          kind: 'paragraph',
+          text: 'Preis: 50 NOK pro halbe Stunde. Buchung an der Rezeption. Die Verfügbarkeit kann je nach Nachfrage und Saison variieren.'
+        },
+        { kind: 'heading', text: 'Angeln' },
+        {
+          kind: 'paragraph',
+          text: 'Mehr zum Angeln hier: [sveastranda.no/fisking](https://www.sveastranda.no/fisking)'
         }
       ]
     }
