@@ -439,6 +439,15 @@ export const categories: Category[] = [
             'Utsjekk før kl. 11:00'
           ]
         },
+        { kind: 'heading', text: 'Ved avreise' },
+        {
+          kind: 'list',
+          items: [
+            'Legg nøkkelen i postkassen utenfor resepsjonen dersom den er ubemannet',
+            'Kast søppel i avfallsstasjonen til venstre for resepsjonen',
+            'Ta av sengetøy og legg det i gangen'
+          ]
+        },
         { kind: 'heading', text: 'Sengetøy og håndklær' },
         {
           kind: 'paragraph',
@@ -451,15 +460,6 @@ export const categories: Category[] = [
             'Stort håndkle – 20 kr',
             'Lite håndkle – 10 kr',
             'Sett (sengetøy + håndklær) – 100 kr'
-          ]
-        },
-        { kind: 'heading', text: 'Ved avreise' },
-        {
-          kind: 'list',
-          items: [
-            'Legg nøkkelen i postkassen utenfor resepsjonen dersom den er ubemannet',
-            'Kast søppel i avfallsstasjonen til venstre for resepsjonen',
-            'Ta av sengetøy og legg det i gangen'
           ]
         },
         {
@@ -476,6 +476,15 @@ export const categories: Category[] = [
             'Check-out before 11:00'
           ]
         },
+        { kind: 'heading', text: 'When you leave' },
+        {
+          kind: 'list',
+          items: [
+            'Put the key in the mailbox outside reception if it is unstaffed',
+            'Throw rubbish in the waste station to the left of reception',
+            'Strip the bedding and leave it in the hallway'
+          ]
+        },
         { kind: 'heading', text: 'Bedding and towels' },
         {
           kind: 'paragraph',
@@ -488,15 +497,6 @@ export const categories: Category[] = [
             'Large towel – 20 NOK',
             'Small towel – 10 NOK',
             'Set (bedding + towels) – 100 NOK'
-          ]
-        },
-        { kind: 'heading', text: 'When you leave' },
-        {
-          kind: 'list',
-          items: [
-            'Put the key in the mailbox outside reception if it is unstaffed',
-            'Throw rubbish in the waste station to the left of reception',
-            'Strip the bedding and leave it in the hallway'
           ]
         },
         {
@@ -513,6 +513,15 @@ export const categories: Category[] = [
             'Uitchecken vóór 11:00'
           ]
         },
+        { kind: 'heading', text: 'Bij vertrek' },
+        {
+          kind: 'list',
+          items: [
+            'Leg de sleutel in de brievenbus voor de receptie als deze onbemand is',
+            'Gooi afval in het afvalstation links van de receptie',
+            'Haal het beddengoed eraf en leg het in de gang'
+          ]
+        },
         { kind: 'heading', text: 'Beddengoed en handdoeken' },
         {
           kind: 'paragraph',
@@ -525,15 +534,6 @@ export const categories: Category[] = [
             'Grote handdoek – 20 NOK',
             'Kleine handdoek – 10 NOK',
             'Set (beddengoed + handdoeken) – 100 NOK'
-          ]
-        },
-        { kind: 'heading', text: 'Bij vertrek' },
-        {
-          kind: 'list',
-          items: [
-            'Leg de sleutel in de brievenbus voor de receptie als deze onbemand is',
-            'Gooi afval in het afvalstation links van de receptie',
-            'Haal het beddengoed eraf en leg het in de gang'
           ]
         },
         {
@@ -550,6 +550,15 @@ export const categories: Category[] = [
             'Check-out bis 11:00 Uhr'
           ]
         },
+        { kind: 'heading', text: 'Bei der Abreise' },
+        {
+          kind: 'list',
+          items: [
+            'Legen Sie den Schlüssel in den Briefkasten vor der Rezeption, wenn diese unbesetzt ist',
+            'Werfen Sie den Müll in die Abfallstation links von der Rezeption',
+            'Beziehen Sie die Betten ab und legen Sie die Bettwäsche in den Flur'
+          ]
+        },
         { kind: 'heading', text: 'Bettwäsche und Handtücher' },
         {
           kind: 'paragraph',
@@ -562,15 +571,6 @@ export const categories: Category[] = [
             'Großes Handtuch – 20 NOK',
             'Kleines Handtuch – 10 NOK',
             'Set (Bettwäsche + Handtücher) – 100 NOK'
-          ]
-        },
-        { kind: 'heading', text: 'Bei der Abreise' },
-        {
-          kind: 'list',
-          items: [
-            'Legen Sie den Schlüssel in den Briefkasten vor der Rezeption, wenn diese unbesetzt ist',
-            'Werfen Sie den Müll in die Abfallstation links von der Rezeption',
-            'Beziehen Sie die Betten ab und legen Sie die Bettwäsche in den Flur'
           ]
         },
         {
