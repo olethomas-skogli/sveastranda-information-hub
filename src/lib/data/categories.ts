@@ -23,14 +23,44 @@ export const categories: Category[] = [
             }
           ]
         },
-        { kind: 'heading', text: 'Utvalg i butikken' },
+        { kind: 'heading', text: 'Pizza' },
         {
           kind: 'list',
           items: [
-            'Mat: stor og medium pizza, toast med ost og skinke',
-            'Bakevarer: ciabatta, croissanter, kanelboller, muffins, wienerbrød',
-            'Et godt utvalg av dagligvarer'
+            {
+              text: 'Stor pizza – 249 kr:',
+              sub: [
+                'Ost, skinke, champignon og paprika',
+                'Ost, pepperoni, rødløk og paprika'
+              ]
+            },
+            {
+              text: 'Medium pizza – 169 kr:',
+              sub: ['Ost og pepperoni', 'Ost og skinke']
+            },
+            'Rømmedressing: 20 kr'
           ]
+        },
+        { kind: 'heading', text: 'Toast' },
+        {
+          kind: 'list',
+          items: ['Ost og skinke – 45 kr']
+        },
+        { kind: 'heading', text: 'Frokost' },
+        {
+          kind: 'list',
+          items: [
+            'Ciabatta (fin eller halvgrov) – 20 kr',
+            'Croissant (med eller uten sjokolade) – 25 kr',
+            'Kanelboller eller wienerbrød – 25 kr',
+            'Brød (halvgrovt) – 49 kr'
+          ]
+        },
+        { kind: 'heading', text: 'Dagligvarer' },
+        { kind: 'paragraph', text: 'Et godt utvalg av dagligvarer.' },
+        {
+          kind: 'paragraph',
+          text: 'Merk: Utvalget kan variere etter sesong. I lavsesongen tas bestillinger i resepsjonen / butikken. I høysesongen tilbys ferske bakevarer fra åpningstid.'
         }
       ],
       en: [
@@ -45,14 +75,44 @@ export const categories: Category[] = [
             }
           ]
         },
-        { kind: 'heading', text: 'In the shop' },
+        { kind: 'heading', text: 'Pizza' },
         {
           kind: 'list',
           items: [
-            'Food: large and medium pizza, toast with cheese and ham',
-            'Bakery: ciabatta, croissants, cinnamon buns, muffins, Danish pastries',
-            'A good selection of groceries'
+            {
+              text: 'Large pizza – 249 NOK:',
+              sub: [
+                'Cheese, ham, mushroom and bell pepper',
+                'Cheese, pepperoni, red onion and bell pepper'
+              ]
+            },
+            {
+              text: 'Medium pizza – 169 NOK:',
+              sub: ['Cheese and pepperoni', 'Cheese and ham']
+            },
+            'Sour cream dressing: 20 NOK'
           ]
+        },
+        { kind: 'heading', text: 'Toast' },
+        {
+          kind: 'list',
+          items: ['Cheese and ham – 45 NOK']
+        },
+        { kind: 'heading', text: 'Breakfast' },
+        {
+          kind: 'list',
+          items: [
+            'Ciabatta (white or wholewheat) – 20 NOK',
+            'Croissant (with or without chocolate) – 25 NOK',
+            'Cinnamon buns or Danish pastries – 25 NOK',
+            'Bread (wholewheat) – 49 NOK'
+          ]
+        },
+        { kind: 'heading', text: 'Groceries' },
+        { kind: 'paragraph', text: 'A good selection of everyday groceries.' },
+        {
+          kind: 'paragraph',
+          text: 'Note: the selection may vary by season. In low season, orders are taken at reception / in the shop. In high season, fresh bakery items are available from opening time.'
         }
       ],
       nl: [
@@ -67,14 +127,44 @@ export const categories: Category[] = [
             }
           ]
         },
-        { kind: 'heading', text: 'In de winkel' },
+        { kind: 'heading', text: 'Pizza' },
         {
           kind: 'list',
           items: [
-            'Eten: grote en middelgrote pizza, tosti met kaas en ham',
-            'Bakkerij: ciabatta, croissants, kaneelbroodjes, muffins, koffiebroodjes',
-            'Een goed assortiment dagelijkse boodschappen'
+            {
+              text: 'Grote pizza – 249 NOK:',
+              sub: [
+                'Kaas, ham, champignons en paprika',
+                'Kaas, pepperoni, rode ui en paprika'
+              ]
+            },
+            {
+              text: 'Medium pizza – 169 NOK:',
+              sub: ['Kaas en pepperoni', 'Kaas en ham']
+            },
+            'Zure-roomdressing: 20 NOK'
           ]
+        },
+        { kind: 'heading', text: 'Tosti' },
+        {
+          kind: 'list',
+          items: ['Kaas en ham – 45 NOK']
+        },
+        { kind: 'heading', text: 'Ontbijt' },
+        {
+          kind: 'list',
+          items: [
+            'Ciabatta (wit of halfvolkoren) – 20 NOK',
+            'Croissant (met of zonder chocolade) – 25 NOK',
+            'Kaneelbroodjes of koffiebroodjes – 25 NOK',
+            'Brood (halfvolkoren) – 49 NOK'
+          ]
+        },
+        { kind: 'heading', text: 'Boodschappen' },
+        { kind: 'paragraph', text: 'Een goed assortiment dagelijkse boodschappen.' },
+        {
+          kind: 'paragraph',
+          text: 'Let op: het aanbod kan per seizoen variëren. In het laagseizoen worden bestellingen bij de receptie / in de winkel opgenomen. In het hoogseizoen zijn verse bakkerijproducten vanaf de openingstijd verkrijgbaar.'
         }
       ],
       de: [
@@ -89,14 +179,44 @@ export const categories: Category[] = [
             }
           ]
         },
-        { kind: 'heading', text: 'Im Laden' },
+        { kind: 'heading', text: 'Pizza' },
         {
           kind: 'list',
           items: [
-            'Essen: große und mittlere Pizza, Toast mit Käse und Schinken',
-            'Backwaren: Ciabatta, Croissants, Zimtschnecken, Muffins, Plundergebäck',
-            'Eine gute Auswahl an Lebensmitteln'
+            {
+              text: 'Große Pizza – 249 NOK:',
+              sub: [
+                'Käse, Schinken, Champignons und Paprika',
+                'Käse, Pepperoni, rote Zwiebel und Paprika'
+              ]
+            },
+            {
+              text: 'Mittlere Pizza – 169 NOK:',
+              sub: ['Käse und Pepperoni', 'Käse und Schinken']
+            },
+            'Sauerrahm-Dressing: 20 NOK'
           ]
+        },
+        { kind: 'heading', text: 'Toast' },
+        {
+          kind: 'list',
+          items: ['Käse und Schinken – 45 NOK']
+        },
+        { kind: 'heading', text: 'Frühstück' },
+        {
+          kind: 'list',
+          items: [
+            'Ciabatta (hell oder halbgrob) – 20 NOK',
+            'Croissant (mit oder ohne Schokolade) – 25 NOK',
+            'Zimtschnecken oder Plundergebäck – 25 NOK',
+            'Brot (halbgrob) – 49 NOK'
+          ]
+        },
+        { kind: 'heading', text: 'Lebensmittel' },
+        { kind: 'paragraph', text: 'Eine gute Auswahl an Lebensmitteln des täglichen Bedarfs.' },
+        {
+          kind: 'paragraph',
+          text: 'Hinweis: Das Sortiment kann saisonal variieren. In der Nebensaison werden Bestellungen an der Rezeption / im Laden aufgenommen. In der Hauptsaison sind frische Backwaren ab Öffnungszeit erhältlich.'
         }
       ]
     }
