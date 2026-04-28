@@ -16,4 +16,7 @@ export interface Category {
   emoji: string;
   title: Localized<string>;
   blocks: Localized<Block[]>;
+  /** When set, the card links directly to this URL (opened in a new tab) and
+   * no internal detail page is generated. */
+  externalUrl?: string;
 }

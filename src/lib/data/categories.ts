@@ -893,6 +893,20 @@ export const categories: Category[] = [
   }
 ];
 
+// Append the Kart entry as an external link card (no internal detail page).
+categories.push({
+  slug: 'kart',
+  emoji: '🗺️',
+  title: {
+    no: 'Kart',
+    en: 'Map',
+    nl: 'Kaart',
+    de: 'Karte'
+  },
+  blocks: { no: [], en: [], nl: [], de: [] },
+  externalUrl: 'https://www.sveastranda.no/media/487'
+});
+
 export const bySlug: Record<string, Category> = Object.fromEntries(
   categories.map((c) => [c.slug, c])
 );
