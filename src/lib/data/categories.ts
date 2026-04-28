@@ -960,6 +960,10 @@ export const categories: Category[] = [
             'Lading av elbil er ikke tillatt på campingplassen',
             'Benytt ladestasjonen ved sanitæranlegg 2'
           ]
+        },
+        {
+          kind: 'paragraph',
+          text: 'For flere regler, se: [sveastranda.no/media/358](https://www.sveastranda.no/media/358)'
         }
       ],
       en: [
@@ -972,6 +976,10 @@ export const categories: Category[] = [
             'Charging electric vehicles on the campsite is not allowed',
             'Use the charging station at sanitary building 2'
           ]
+        },
+        {
+          kind: 'paragraph',
+          text: 'For more rules, see: [sveastranda.no/media/358](https://www.sveastranda.no/media/358)'
         }
       ],
       nl: [
@@ -984,6 +992,10 @@ export const categories: Category[] = [
             'Het is niet toegestaan elektrische auto’s op de camping te laden',
             'Gebruik het laadstation bij sanitairgebouw 2'
           ]
+        },
+        {
+          kind: 'paragraph',
+          text: 'Voor meer regels, zie: [sveastranda.no/media/358](https://www.sveastranda.no/media/358)'
         }
       ],
       de: [
@@ -996,6 +1008,10 @@ export const categories: Category[] = [
             'Das Laden von E-Autos ist auf dem Campingplatz nicht erlaubt',
             'Bitte die Ladestation am Sanitärgebäude 2 nutzen'
           ]
+        },
+        {
+          kind: 'paragraph',
+          text: 'Weitere Regeln: [sveastranda.no/media/358](https://www.sveastranda.no/media/358)'
         }
       ]
     }
