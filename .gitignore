@@ -1,0 +1,22 @@
+node_modules
+.svelte-kit
+build
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Editor / agent state
+.claude
+.vscode
+.idea
+
+# Playwright + local test screenshots
+.playwright-mcp
+/*.png
+/*.jpeg
+/*.jpg
+# but keep brand assets in static/
+!static/*.png
+!static/*.svg
