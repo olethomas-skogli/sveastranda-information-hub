@@ -439,6 +439,20 @@ export const categories: Category[] = [
             'Utsjekk før kl. 11:00'
           ]
         },
+        { kind: 'heading', text: 'Sengetøy og håndklær' },
+        {
+          kind: 'paragraph',
+          text: 'Sengetøy og håndklær kan leies i resepsjonen:'
+        },
+        {
+          kind: 'list',
+          items: [
+            'Sengetøy – 70 kr',
+            'Stort håndkle – 20 kr',
+            'Lite håndkle – 10 kr',
+            'Sett (sengetøy + håndklær) – 100 kr'
+          ]
+        },
         { kind: 'heading', text: 'Ved avreise' },
         {
           kind: 'list',
@@ -460,6 +474,20 @@ export const categories: Category[] = [
             'WiFi: sveastranda camping (no password)',
             'Check-in from 15:00',
             'Check-out before 11:00'
+          ]
+        },
+        { kind: 'heading', text: 'Bedding and towels' },
+        {
+          kind: 'paragraph',
+          text: 'Bedding and towels can be rented at reception:'
+        },
+        {
+          kind: 'list',
+          items: [
+            'Bedding – 70 NOK',
+            'Large towel – 20 NOK',
+            'Small towel – 10 NOK',
+            'Set (bedding + towels) – 100 NOK'
           ]
         },
         { kind: 'heading', text: 'When you leave' },
@@ -485,6 +513,20 @@ export const categories: Category[] = [
             'Uitchecken vóór 11:00'
           ]
         },
+        { kind: 'heading', text: 'Beddengoed en handdoeken' },
+        {
+          kind: 'paragraph',
+          text: 'Beddengoed en handdoeken kunnen worden gehuurd bij de receptie:'
+        },
+        {
+          kind: 'list',
+          items: [
+            'Beddengoed – 70 NOK',
+            'Grote handdoek – 20 NOK',
+            'Kleine handdoek – 10 NOK',
+            'Set (beddengoed + handdoeken) – 100 NOK'
+          ]
+        },
         { kind: 'heading', text: 'Bij vertrek' },
         {
           kind: 'list',
@@ -506,6 +548,20 @@ export const categories: Category[] = [
             'WLAN: sveastranda camping (kein Passwort)',
             'Check-in ab 15:00 Uhr',
             'Check-out bis 11:00 Uhr'
+          ]
+        },
+        { kind: 'heading', text: 'Bettwäsche und Handtücher' },
+        {
+          kind: 'paragraph',
+          text: 'Bettwäsche und Handtücher können an der Rezeption gemietet werden:'
+        },
+        {
+          kind: 'list',
+          items: [
+            'Bettwäsche – 70 NOK',
+            'Großes Handtuch – 20 NOK',
+            'Kleines Handtuch – 10 NOK',
+            'Set (Bettwäsche + Handtücher) – 100 NOK'
           ]
         },
         { kind: 'heading', text: 'Bei der Abreise' },
