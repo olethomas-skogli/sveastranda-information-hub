@@ -1032,6 +1032,23 @@ categories.push({
   externalUrl: 'https://www.sveastranda.no/media/487'
 });
 
+// Display order on the landing grid. "Generell informasjon" sits at the
+// bottom; "Kart" pairs up with "Regler" on the same row.
+const DISPLAY_ORDER = [
+  'butikk',
+  'restaurant',
+  'aktiviteter',
+  'arrangementer',
+  'hytte',
+  'camping',
+  'regler',
+  'kart',
+  'generelt'
+];
+categories.sort(
+  (a, b) => DISPLAY_ORDER.indexOf(a.slug) - DISPLAY_ORDER.indexOf(b.slug)
+);
+
 export const bySlug: Record<string, Category> = Object.fromEntries(
   categories.map((c) => [c.slug, c])
 );
