@@ -1037,10 +1037,10 @@ categories.push({
 const DISPLAY_ORDER = [
   'butikk',
   'restaurant',
-  'aktiviteter',
-  'arrangementer',
   'hytte',
   'camping',
+  'aktiviteter',
+  'arrangementer',
   'regler',
   'kart',
   'generelt'
