@@ -20,7 +20,7 @@
     {strings.tagline}
   </p>
 
-  <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
+  <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
     {#each categories as category, i}
       <CategoryCard
         {category}

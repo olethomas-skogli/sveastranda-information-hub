@@ -477,10 +477,10 @@ export const categories: Category[] = [
     slug: 'hytte',
     emoji: '🏡',
     title: {
-      no: 'Hytteinformasjon',
+      no: 'Hytte​informasjon',
       en: 'Cabin information',
-      nl: 'Hutinformatie',
-      de: 'Hütteninformation'
+      nl: 'Hut​informatie',
+      de: 'Hütten​information'
     },
     blocks: {
       no: [
@@ -638,10 +638,10 @@ export const categories: Category[] = [
     slug: 'camping',
     emoji: '🚐',
     title: {
-      no: 'Campinginformasjon',
+      no: 'Camping​informasjon',
       en: 'Camping information',
-      nl: 'Campinginformatie',
-      de: 'Campinginformation'
+      nl: 'Camping​informatie',
+      de: 'Camping​information'
     },
     blocks: {
       no: [

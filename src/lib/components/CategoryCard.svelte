@@ -51,7 +51,7 @@
   >{category.emoji}</span>
   <span
     class="font-display text-sm font-semibold leading-tight text-white
-           [text-wrap:balance] sm:text-base lg:text-lg"
+           [overflow-wrap:break-word] sm:text-base"
   >
     {title}
   </span>

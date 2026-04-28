@@ -26,7 +26,7 @@
 
 <div class="flex min-h-dvh flex-col">
   <header class="sticky top-0 z-20 border-b border-stone-200 bg-white/90 backdrop-blur">
-    <div class="mx-auto flex max-w-screen-sm items-center justify-between gap-3 px-4 py-3">
+    <div class="mx-auto flex max-w-screen-sm items-center justify-between gap-3 px-4 py-3 md:max-w-screen-md">
       <a
         href="/"
         class="flex items-center focus-visible:outline-none focus-visible:ring-2
@@ -46,7 +46,7 @@
   </header>
 
   <main
-    class="mx-auto w-full max-w-screen-sm flex-1 px-4 py-6"
+    class="mx-auto w-full max-w-screen-sm flex-1 px-4 py-6 md:max-w-screen-md"
     style="padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));"
   >
     {@render children?.()}
@@ -54,7 +54,7 @@
 
   <footer class="border-t border-stone-200 bg-white">
     <div
-      class="mx-auto max-w-screen-sm px-4 py-4 text-sm text-stone-600"
+      class="mx-auto max-w-screen-sm px-4 py-4 text-sm text-stone-600 md:max-w-screen-md"
       style="padding-bottom: calc(1rem + env(safe-area-inset-bottom));"
     >
       <p class="font-display font-semibold text-brand-ink">{strings.footerContact}</p>
