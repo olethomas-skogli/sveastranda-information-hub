@@ -10,6 +10,7 @@ export interface UiStrings {
   footerContact: string;
   footerEmail: string;
   footerPhone: string;
+  footerFollowUs: string;
   notFound: string;
   notFoundLink: string;
 }
@@ -25,6 +26,7 @@ export const ui: Localized<UiStrings> = {
     footerContact: 'Kontakt',
     footerEmail: 'resepsjon@sveastranda.no',
     footerPhone: '61 18 15 29',
+    footerFollowUs: 'Følg oss',
     notFound: 'Fant ikke siden.',
     notFoundLink: 'Tilbake til forsiden'
   },
@@ -38,6 +40,7 @@ export const ui: Localized<UiStrings> = {
     footerContact: 'Contact',
     footerEmail: 'resepsjon@sveastranda.no',
     footerPhone: '61 18 15 29',
+    footerFollowUs: 'Follow us',
     notFound: 'Page not found.',
     notFoundLink: 'Back to home'
   },
@@ -51,6 +54,7 @@ export const ui: Localized<UiStrings> = {
     footerContact: 'Contact',
     footerEmail: 'resepsjon@sveastranda.no',
     footerPhone: '61 18 15 29',
+    footerFollowUs: 'Volg ons',
     notFound: 'Pagina niet gevonden.',
     notFoundLink: 'Terug naar de startpagina'
   },
@@ -64,6 +68,7 @@ export const ui: Localized<UiStrings> = {
     footerContact: 'Kontakt',
     footerEmail: 'resepsjon@sveastranda.no',
     footerPhone: '61 18 15 29',
+    footerFollowUs: 'Folgen Sie uns',
     notFound: 'Seite nicht gefunden.',
     notFoundLink: 'Zurück zur Startseite'
   }

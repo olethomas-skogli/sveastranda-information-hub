@@ -70,6 +70,56 @@
           class="text-brand-700 hover:underline"
         >{strings.footerPhone}</a>
       </p>
+
+      <p class="mt-4 font-display font-semibold text-brand-ink">
+        {strings.footerFollowUs}
+      </p>
+      <div class="mt-2 flex items-center gap-2">
+        <a
+          href="https://www.facebook.com/Sveastranda"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-stone-100
+                 text-stone-700 transition
+                 hover:bg-brand-500 hover:text-white
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+        >
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            class="h-5 w-5"
+            fill="currentColor"
+          >
+            <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692V11.08h3.128V8.413c0-3.1 1.893-4.787 4.659-4.787 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.31h3.587l-.467 3.626h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/>
+          </svg>
+        </a>
+        <a
+          href="https://www.instagram.com/sveastrandacamping/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-stone-100
+                 text-stone-700 transition
+                 hover:bg-brand-500 hover:text-white
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+        >
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+        </a>
+      </div>
     </div>
   </footer>
 </div>
