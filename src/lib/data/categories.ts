@@ -421,6 +421,59 @@ export const categories: Category[] = [
   },
 
   {
+    slug: 'arrangementer',
+    emoji: '🎉',
+    title: {
+      no: 'Arrangementer',
+      en: 'Events',
+      nl: 'Evenementen',
+      de: 'Veranstaltungen'
+    },
+    blocks: {
+      no: [
+        {
+          kind: 'paragraph',
+          text: 'Vi arrangerer mange show og aktiviteter gjennom sesongen.'
+        },
+        {
+          kind: 'paragraph',
+          text: 'Se datoer og mer informasjon her: [sveastranda.no/arrangementer](https://www.sveastranda.no/arrangementer)'
+        }
+      ],
+      en: [
+        {
+          kind: 'paragraph',
+          text: 'We host many shows and activities throughout the season.'
+        },
+        {
+          kind: 'paragraph',
+          text: 'See dates and more information here: [sveastranda.no/arrangementer](https://www.sveastranda.no/arrangementer)'
+        }
+      ],
+      nl: [
+        {
+          kind: 'paragraph',
+          text: 'We organiseren veel shows en activiteiten gedurende het seizoen.'
+        },
+        {
+          kind: 'paragraph',
+          text: 'Bekijk hier de data en meer informatie: [sveastranda.no/arrangementer](https://www.sveastranda.no/arrangementer)'
+        }
+      ],
+      de: [
+        {
+          kind: 'paragraph',
+          text: 'Wir organisieren viele Shows und Aktivitäten während der Saison.'
+        },
+        {
+          kind: 'paragraph',
+          text: 'Termine und weitere Informationen finden Sie hier: [sveastranda.no/arrangementer](https://www.sveastranda.no/arrangementer)'
+        }
+      ]
+    }
+  },
+
+  {
     slug: 'hytte',
     emoji: '🏡',
     title: {
