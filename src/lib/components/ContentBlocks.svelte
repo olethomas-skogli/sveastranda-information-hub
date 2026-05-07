@@ -13,8 +13,8 @@
 
   type Segment = { kind: 'text'; value: string } | { kind: 'link'; label: string; href: string };
 
-  // Parse markdown-style inline links: [label](https://example.com)
-  const LINK_PATTERN = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+  // Parse markdown-style inline links: [label](https://example.com), [label](tel:+47...)
+  const LINK_PATTERN = /\[([^\]]+)\]\(((?:https?:\/\/|tel:|mailto:)[^\s)]+)\)/g;
 
   function parseInline(text: string): Segment[] {
     const segments: Segment[] = [];
@@ -33,10 +33,11 @@
 {#snippet inline(text: string)}
   {#each parseInline(text) as seg}
     {#if seg.kind === 'link'}
+      {@const isExternal = seg.href.startsWith('http')}
       <a
         href={seg.href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={isExternal ? '_blank' : undefined}
+        rel={isExternal ? 'noopener noreferrer' : undefined}
         class="font-medium text-brand-700 underline decoration-brand-300 decoration-2 underline-offset-4
                hover:text-brand-900 hover:decoration-brand-500
                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 rounded-sm"

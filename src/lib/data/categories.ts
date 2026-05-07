@@ -239,6 +239,16 @@ export const categories: Category[] = [
             'Åpen daglig kl. 13:00–21:00 fra 19. juni – 16. august',
             'Åpen i helger før og etter denne perioden'
           ]
+        },
+        { kind: 'heading', text: 'Meny' },
+        {
+          kind: 'paragraph',
+          text: 'Se menyen her: [sveastranda.no/restauranten](https://www.sveastranda.no/restauranten)'
+        },
+        { kind: 'heading', text: 'Bestilling' },
+        {
+          kind: 'list',
+          items: ['Telefon: [486 14 417](tel:+4748614417)']
         }
       ],
       en: [
@@ -248,6 +258,16 @@ export const categories: Category[] = [
             'Open daily 13:00–21:00 from 19 June – 16 August',
             'Open on weekends before and after this period'
           ]
+        },
+        { kind: 'heading', text: 'Menu' },
+        {
+          kind: 'paragraph',
+          text: 'See the menu here: [sveastranda.no/restauranten](https://www.sveastranda.no/restauranten)'
+        },
+        { kind: 'heading', text: 'Orders' },
+        {
+          kind: 'list',
+          items: ['Phone: [486 14 417](tel:+4748614417)']
         }
       ],
       nl: [
@@ -257,6 +277,16 @@ export const categories: Category[] = [
             'Dagelijks geopend van 13:00–21:00 van 19 juni t/m 16 augustus',
             'In de weekenden geopend voor en na deze periode'
           ]
+        },
+        { kind: 'heading', text: 'Menu' },
+        {
+          kind: 'paragraph',
+          text: 'Bekijk het menu hier: [sveastranda.no/restauranten](https://www.sveastranda.no/restauranten)'
+        },
+        { kind: 'heading', text: 'Bestellen' },
+        {
+          kind: 'list',
+          items: ['Telefoon: [486 14 417](tel:+4748614417)']
         }
       ],
       de: [
@@ -266,6 +296,16 @@ export const categories: Category[] = [
             'Täglich von 13:00–21:00 Uhr geöffnet vom 19. Juni – 16. August',
             'An Wochenenden vor und nach diesem Zeitraum geöffnet'
           ]
+        },
+        { kind: 'heading', text: 'Speisekarte' },
+        {
+          kind: 'paragraph',
+          text: 'Speisekarte hier ansehen: [sveastranda.no/restauranten](https://www.sveastranda.no/restauranten)'
+        },
+        { kind: 'heading', text: 'Bestellungen' },
+        {
+          kind: 'list',
+          items: ['Telefon: [486 14 417](tel:+4748614417)']
         }
       ]
     }

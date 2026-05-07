@@ -10,10 +10,6 @@ function detectInitial(): Lang {
   const stored = localStorage.getItem(STORAGE_KEY);
   if (stored && (VALID as string[]).includes(stored)) return stored as Lang;
 
-  const nav = navigator.language.toLowerCase();
-  if (nav.startsWith('en')) return 'en';
-  if (nav.startsWith('nl')) return 'nl';
-  if (nav.startsWith('de')) return 'de';
   return 'no';
 }
 
